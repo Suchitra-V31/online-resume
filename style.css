@@ -65,3 +65,29 @@ a:hover {
 strong {
     font-weight: bold;
 }
+/* Ensure Bold stands out significantly */
+strong {
+    font-weight: 700 !important;
+    color: #1a1a1a; /* Darker than regular text */
+}
+
+/* Add a slight highlight to key metrics or labels */
+.year {
+    background-color: #fff3e0; /* Very light orange tint */
+    padding: 2px 8px;
+    border-radius: 4px;
+    color: #e67e22;
+    font-size: 13px;
+}
+
+/* Grid for skills to avoid long boring lists */
+.skills-grid {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.skill-col ul {
+    list-style-type: square;
+    color: #444;
+}
